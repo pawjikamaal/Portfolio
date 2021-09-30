@@ -11,6 +11,11 @@ html,body{
 html{
   color: #222;
 }
+.card img
+{
+  width:250px;
+  height:250px;
+}
 .fixed-caption h1
 {
   font-family: 'Nunito', sans-serif;
