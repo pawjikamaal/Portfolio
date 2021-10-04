@@ -22,11 +22,6 @@ html{
 {
   font-family: 'Space Grotesk',sans-serif;
 }
-.fixed-bg img
-{
-  height:100%;
-  width:100%
-}
 footer{
   background-color: #FFABF5 ;
   color: #D5D5D5;
