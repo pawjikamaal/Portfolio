@@ -22,12 +22,19 @@ html{
 {
   font-family: 'Nunito', sans-serif;
 }
+.text-bg-h1
+{
+  background: rgba(34, 34, 34,0.4);
+}
+.text-bg-h2 
+{
+  background: rgba(34, 34, 34,0.6);
+   font-size: 23px;
+   color: #fff;
+   font-family: 'Space Grotesk',sans-serif;
+}
 .nav-item a{
   font-family: 'Raleway',sans-serif;
-}
-.fixed-caption h3
-{
-  font-family: 'Space Grotesk',sans-serif;
 }
 footer{
   background-color: #FFABF5 ;
