@@ -95,7 +95,7 @@ body{
   color: #FFFFFF;
 }
 .navbar{
- /* position: fixed;*/
+ position: fixed;
   width: 100%;
 }
 .navbar
