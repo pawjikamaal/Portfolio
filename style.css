@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@font-face{src: url(product-sans/Product-Sans-Regular.ttf);
+  font-family: prod;}
+html,body{
+  height: 100%;
+/*  width: 100%;*/
+  font-family: 'Poppins', sans-serif;
+}
+.parallax {
+  background-image: url('fixed_bg.png');
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+html
+{
+  color: #222;
+}
+.skill-icon
+{
+  padding-top: 15px;
+}
+
+.text-bg-h1 h1
+{
+  font-size: 450%;
+  text-transform: uppercase ;
+  text-shadow: 2px 2px 7px #000;
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+}
+.text-bg-h2 
+{
+  text-shadow: 2px 2px 7px #000;
+  font-size: 25px;
+  color: #fff;
+  font-family: 'Space Grotesk',sans-serif;
+  padding-left: 15px;
+}
+.nav-item a{
+  font-family: 'Raleway',sans-serif;
+}
+.caption
+{
+  width: 100%;
+}
+footer{
+  background-color: #FFABF5 ;
+  color: #D5D5D5;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+.btn-primary{
+  background-color: #45d682 ;
+  border: 1px solid #45d682 ;
+  color: #555555;
+  transition: all 0.3s ease;
+}
+.btn-primary:hover
+{
+  background-color: #FFABF5;
+  border: 1px solid #FFABF5;
+  color: #555555;
+}
+body{
+
+  background-color: #151515;
+
+}
+.card
+{
+  border-radius: 15px;
+}
+.card img
+{
+  border-radius: 15px 15px 0 0;
+  padding: 1px;
+}
+.card p
+{
+  color: #222;
+}
+.edu h1
+{
+  color: #FFFFFF;
+}
+.skill h1,p,h3
+{
+  color: #FFFFFF;
+}
+.navbar{
+ /* position: fixed;*/
+  width: 100%;
+}
+.navbar
+{
+  background-color: #45d682
+;
+}
+.navbar{
+  padding: .8rem;
+}
+.connect h2
+{
+  color: #FFFFFF;
+}
+.navbar-nav li{
+  padding-right: 1.3rem;
+}
+.nav-link{
+  font-size: 1.1rem !important;
+}
+.fixed-caption{
+  width: 100%;
+   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fa-code{
+  color: #e54d26;
+}
+.fa-css3{
+  color: #2163af;
+}
+.fa-code,.fa-css3{
+  font-size: 30px;
+}
+.fa-map-marker-alt,.fa-mobile-alt,.fa-envelope-open{
+  font-size: 20px;
+  color: #222;
+}
+.fa-instagram:hover
+{
+  color:#FFABF5 ;
+  transition: all 0.3s ease;
+}
+.fa-linkedin:hover
+{
+  color: #FFABF5;
+  transition: all 0.3s ease;
+}
+.connect a
+{
+  font-size: 4rem;
+  padding: 2rem;
+}
+.edu{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.contact span{
+  font-size: 125%;
+  padding-left: 1rem;
+   color: #FFFFFF;
+}
+.connect hr{
+  border-top: 2px solid #b4b4b4;
+  width: 75%;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+.edu hr{
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+.skill{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+ 
+}
+.skill hr{
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.jumbotron
+{
+  background-color:#555555 ;
+}
+.jumbotron{
+  padding: 1rem;
+  border-radius: 0;
+}
+.padding{
+  padding-bottom: 2rem;
+}
+.contact span
+{
+  color:  #222;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px)
+{
+  .connect a{
+    font-size: 3rem;
+    padding: 1.5rem;
+  }
+  .fixed-caption h1{
+  font-size: 400%;
+}
+}
+@media (max-width: 768px) {
+ 
+   footer{
+  background-color: #FFABF5 ;
+  color: #D5D5D5;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+}
+  .fixed-caption h1{
+  font-size: 350%;
+}
+}
+@media (max-width: 576px) {
+  .contact span
+  {
+    font-size: 80%;
+  }
+  .parallax 
+  {
+    background-image: url('tall_fixed_bg_crop.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text-bg-h1
+  {
+    padding-left:5px;
+    padding-right:5px;
+    background: rgba(34, 34, 34,0.4);
+  }
+  .text-bg-h2 
+  {
+    padding-left:5px;
+    padding-right:5px;
+    background: rgba(34, 34, 34,0.6);
+    font-size: 25px;
+  }
+  footer{
+  background-color: #FFABF5 ;
+  color: #D5D5D5;
+  padding-top: 0rem;
+  padding-left: 0.5rem;
+}
+  .fixed-caption h1{
+  font-size: 300%;
+}
+.skill h1
+{
+  font-size: 250%;
+}
+.edu h1{
+  font-size: 250%;
+}
+.connect h2{
+  font-size: 170%;
+}
+}
+
+[class*="col-"] {
+    padding: 1rem;
+}
