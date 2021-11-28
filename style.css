@@ -119,10 +119,16 @@ body{
   color: #FFFFFF;
 }
 .navbar{
- position: fixed;
+  position: fixed;
   width: 100%;
+}
+.navbar
+{
+  background-color: #45d682
+;
+}
+.navbar{
   padding: .8rem;
-  background-color: #45d682;
 }
 .navbar-toggler
 {
