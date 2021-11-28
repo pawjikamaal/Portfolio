@@ -53,9 +53,10 @@ html
 
 .text-bg-h1 h1
 {
+  padding-left: 15px;
   font-size: 450%;
   text-transform: uppercase ;
-  text-shadow: 2px 2px 7px #000;
+  text-shadow: 2px 2px 5px #000;
   font-family: 'Nunito', sans-serif;
   color: #fff;
 }
