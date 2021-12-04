@@ -224,6 +224,10 @@ body{
   padding: 1rem;
   border-radius: 0;
 }
+.jumbotron p
+{
+  text-align: left;
+}
 .padding{
   padding-bottom: 2rem;
 }
@@ -256,6 +260,10 @@ body{
 }
 }
 @media (max-width: 576px) {
+  .jumbotron p
+{
+  text-align: center;
+}
   .contact span
   {
     font-size: 80%;
