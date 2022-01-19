@@ -10,6 +10,10 @@ html,body{
 /*  width: 100%;*/
   font-family: 'Poppins', sans-serif;
 }
+::selection {
+  color: #222;
+  background: #FFABF5;
+}
 .parallax {
   background-image: url('fixed_bg.png');
   height: 100%;
