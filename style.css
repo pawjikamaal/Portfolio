@@ -175,6 +175,11 @@ body{
   color: #FFABF5;
   transition: all 0.3s ease;
 }
+.fa-twitter:hover
+{
+  color: #FFABF5;
+  transition: all 0.3s ease;
+}
 .connect a
 {
   font-size: 4rem;
